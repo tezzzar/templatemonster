@@ -6259,7 +6259,7 @@ html.boxed body {
     -webkit-text-fill-color: transparent;
     background: -webkit-linear-gradient(transparent, transparent);
     background: -o-linear-gradient(transparent, transparent);
-    background: url(../images/text-image.jpg) repeat;
+    background: url(../images/507х336/507x336.jpg) repeat;
     -webkit-background-clip: text;
     background-position-y: 40%;
     animation: imgPos 5s linear normal infinite paused;
@@ -15586,29 +15586,30 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   border-radius: 4px;
   border: 1px solid #e1e1e1;
 }
+
 /*********** NDev **********/
 .col-wrap {
-    @media (min-width: 1600px) {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  @media (min-width: 1600px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .col-5 {
-    @media (min-width: 1600px) {
-        position: relative;
-        top: auto;
-        left: auto;
-        transform: translate3d(0, 0, 0);
-        width: 100%;
-        max-width: calc(100%/5);
-    }
+  @media (min-width: 1600px) {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: translate3d(0, 0, 0);
+    width: 100%;
+    max-width: calc(100%/5);
+  }
 }
 
 .col-5::before {
-    display: none;
+  display: none;
 }
 
 .col-5 .thumbnail-classic-text {
-    color: #151515;
+  color: #151515;
 }
