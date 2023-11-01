@@ -15613,3 +15613,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .col-5 .thumbnail-classic-text {
   color: #151515;
 }
+
+
+/* ----------------------------------------------------------------------------------- */
+
+.thumbnail-mary-caption .icon::before {
+  visibility: hidden;
+}
+
+.swiper-pagination__module {
+  display: none;
+}
