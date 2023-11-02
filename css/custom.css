@@ -18,4 +18,23 @@
   text-align: left;
   margin: 0;
   font-size: 16px;
+}
+
+.box-icon-modern-icon {
+  padding-top: 40px;
+}
+
+.box-icon-modern a {
+  color: #000;
+}
+.box-icon-modern a:hover {
+  color: #72d5a5;
+}
+
+.box-icon-modern-2 * + .box-icon-modern-title {
+  margin-top: 0;
+}
+
+* + .box-icon-modern-title {
+  margin-top: 0;
 }/*# sourceMappingURL=custom.css.map */
