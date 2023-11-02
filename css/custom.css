@@ -37,4 +37,29 @@
 
 * + .box-icon-modern-title {
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .text_about {
+    display: flex;
+    padding: 50px 10px;
+    opacity: 0.5;
+    margin: 0 auto;
+    max-width: 1490px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .text_about p {
+    width: 100%;
+    text-align: justify;
+    margin: 0;
+    font-size: 16px;
+  }
+  .text_about h5 {
+    width: 100%;
+    text-align: center;
+    text-transform: none;
+  }
 }/*# sourceMappingURL=custom.css.map */
