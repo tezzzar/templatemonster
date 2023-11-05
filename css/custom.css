@@ -84,4 +84,31 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+}
+.price_button {
+  pointer-events: none;
+  cursor: default;
+  padding-bottom: 20px;
+}
+.price_button .price_button_text {
+  pointer-events: none;
+  cursor: default;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.price_button .price_button_text p {
+  color: #000;
+  font-size: 32px;
+}
+.price_button .button_consul {
+  display: inline-block;
+  width: -webkit-fill-available;
+  text-align: center;
+}
+.price_button .button_consul span {
+  display: flex;
+  justify-content: center;
+  width: -webkit-fill-available;
+  padding-left: auto;
+  padding-right: auto;
 }/*# sourceMappingURL=custom.css.map */
