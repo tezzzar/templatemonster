@@ -111,4 +111,13 @@
   width: -webkit-fill-available;
   padding-left: auto;
   padding-right: auto;
+}
+
+@media (max-width: 768px) {
+  #benefits p {
+    display: none;
+  }
+  .thumbnail-classic-caption p {
+    display: block;
+  }
 }/*# sourceMappingURL=custom.css.map */

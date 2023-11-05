@@ -108,3 +108,16 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  #benefits {
+    p {
+      display: none;
+    }
+  }
+  .thumbnail-classic-caption {
+    p {
+      display: block;
+    }
+  }
+}
