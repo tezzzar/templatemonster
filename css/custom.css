@@ -117,7 +117,7 @@
 
 @media (max-width: 768px) {
   #benefits p {
-    font-size: xx-small !important;
+    font-size: x-small !important;
   }
   .thumbnail-classic-caption p {
     display: block;
