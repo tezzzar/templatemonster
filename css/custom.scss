@@ -95,17 +95,19 @@
       font-size: 32px;
     }
   }
-  .button_consul {
-    display: inline-block;
+}
+
+.button_consul {
+  display: inline-block;
+  width: -webkit-fill-available !important;
+  text-align: center;
+  margin-top: 0;
+  span {
+    display: flex;
+    justify-content: center;
     width: -webkit-fill-available;
-    text-align: center;
-    span {
-      display: flex;
-      justify-content: center;
-      width: -webkit-fill-available;
-      padding-left: auto;
-      padding-right: auto;
-    }
+    padding-left: auto;
+    padding-right: auto;
   }
 }
 
