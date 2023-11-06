@@ -122,4 +122,18 @@
   .thumbnail-classic-caption p {
     display: block;
   }
+  #video_block .h3 {
+    padding-left: 25px;
+  }
+}
+#video_block .row {
+  justify-content: flex-start !important;
+}
+
+.rd-navbar-project .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rd-navbar-project .row .icon::before {
+  visibility: visible;
 }/*# sourceMappingURL=custom.css.map */
