@@ -122,8 +122,8 @@
   .thumbnail-classic-caption p {
     display: block;
   }
-  #video_block .h3 {
-    padding-left: 25px;
+  #video_block h3 {
+    text-align: center !important;
   }
 }
 #video_block .row {
